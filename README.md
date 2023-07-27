@@ -27,6 +27,10 @@ This project is a game where you try to guess a randomly generated number from 0
 
 
 
+https://github.com/lucasmichels/exp_guessing-game/assets/39132280/ed22cadb-8a26-4cf9-aba9-c71b08de0518
+
+
+
 ## Authors
 
 - [@lucasmichels](https://www.github.com/lucasmichels)

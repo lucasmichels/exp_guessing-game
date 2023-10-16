@@ -31,7 +31,7 @@ function handleTryClick(event) {
         if(Number(inputNumber.value) == randomNumber) {
             toggleScreen()
     
-            screen2.querySelector("h2").innerText = `Guessed right ${tries} tries!`
+            screen2.querySelector("h2").innerText = `Guessed right in ${tries} tries!`
         }
     
         inputNumber.value = ""

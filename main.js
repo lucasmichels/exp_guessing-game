@@ -21,17 +21,17 @@ function handleTryClick(event) {
     const inputNumber = document.querySelector("#inputNumber")
 
     if(inputNumber.value == "") {
-        alert("Não pode estar vazio!")
+        alert("Can't be empty!")
         
     } else if(inputNumber.value < 0 || inputNumber.value > 10) {
-        alert("Número tem que ser positivo e entre 0 e 10!")
+        alert("Number must be positive between 0 and 10")
 
         inputNumber.value = ""
     } else {
         if(Number(inputNumber.value) == randomNumber) {
             toggleScreen()
     
-            screen2.querySelector("h2").innerText = `Acertou em ${tries} tentativas!`
+            screen2.querySelector("h2").innerText = `Guessed right ${tries} tries!`
         }
     
         inputNumber.value = ""
